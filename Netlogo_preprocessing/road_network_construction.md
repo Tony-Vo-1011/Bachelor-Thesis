@@ -5,7 +5,7 @@ Use the Split Line tool to split line segment at every intersection. This create
 In this new table, every line segment, whcih we call edge, has its own row. By editing the attribute table, we assign each edge a unique ID under the column 'edge_id'.
 
 **Step 2: Create Start Points for Every Edge**
-Using Feature Vertices to Points tool:
+*Using Feature Vertices to Points tool:
 - Input features -> roads_clean
 - Point type: Start
 - Output features: 'edge_start_point'
@@ -14,7 +14,7 @@ The ArcGIS Feature Vertices To Points tool creates point features from vertices 
 The output should contain 'edge_id' column. Make sure there is a column marking that these are 'start' nodes.
 
 **Step 3: Create End Points for Every Edge**
-Using Feature Vertices to Points tool:
+*Using Feature Vertices to Points tool:
 - Input features -> roads_clean
 - Point type: End
 - Output features: 'edge_end_point'
