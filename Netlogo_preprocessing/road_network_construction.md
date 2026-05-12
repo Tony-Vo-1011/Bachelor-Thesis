@@ -7,6 +7,8 @@ Use the Split Line tool to split line segment at every intersection. This create
 In this new table, every line segment, whcih we call edge, has its own row. By editing the attribute table, we assign each edge a unique ID under the column 'edge_id'.
 
 **Step 2: Create Start Points for Every Edge**
+
+
 Using Feature Vertices to Points tool:
 - Input features -> roads_clean
 - Point type: Start
