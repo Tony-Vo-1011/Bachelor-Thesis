@@ -1,7 +1,7 @@
 This folder contains pre processing scripts in R and Python to import the roads infrastructure and third places point layer from 
 GIS shapefiles into Netlogo. The files listed are in chronological order of processing. 
 
-Road_network_contruction.md -> Explains the entire process of turning GIS road network shapefile into a node-edge graph structure in
+road_network_contruction.md -> Explains the entire process of turning GIS road network shapefile into a node-edge graph structure in
 NetLogo
 
 extract.R -> template code to extract roads nodes, roads edges, and third places points from a given neighbourhood boudary
