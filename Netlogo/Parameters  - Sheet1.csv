@@ -1,0 +1,44 @@
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,Parameter,Purpose
+,,number-of-people,Sets the number of agents moving through the neighbourhood.
+,,baseline-stop-probability,Starting probability that an agent considers stopping at a third place.
+,,schedule-fixedness,Represents how time-constrained or rushed an agent is.
+,,schedule-odds-ratio,Reduces stopping odds for agents with more fixed schedules.
+,,stop-probability,"Final probability that an agent stops, after schedule and social feedback effects."
+,,social-feedback?,Turns the familiarity feedback mechanism on or off.
+,,social-encounters,Tracks accumulated co-presence / encounters experienced by an agent.
+,,social-odds-ratio,Increases stopping odds as agents accumulate familiarity through encounters.
+,,encounter-odds-increment,Controls how strongly each encounter increases future stopping odds.
+,,encounter-weight,Scales model encounters into broader social familiarity.
+,,third-place-search-radius,Defines how far from their route agents are willing/able to search for a third place.
+,,route-third-place-sample-size,Controls how many route nodes are checked for nearby third-place options.
+,,search-radius-multiplier,Adjusts search radius by agent schedule type.
+,,rigid-dwell-time,Time rigid agents spend at a third place once they stop.
+,,medium-dwell-time,Time medium-flexibility agents spend at a third place once they stop.
+,,flexible-dwell-time,Time flexible agents spend at a third place once they stop.
+,,personal-dwell-time,Agent-specific dwell time assigned from schedule profile.
+,,place-affordability,Stylised attribute representing how economically accessible a third place is.
+,,place-welcomingness,Stylised attribute representing how socially comfortable or inclusive a third place feels.
+,,price-sensitivity,Measures how strongly an agent is attracted to affordable places.
+,,comfort-sensitivity,Measures how strongly an agent is attracted to welcoming places.
+,,attribute-based-choice?,Switches between random third-place choice and affordability/welcomingness-based choice.
+,,place-attractiveness,Temporary score used to rank reachable third places for each agent.
+,,current-visitors,Number of agents currently dwelling at a third place.
+,,visit-count,Total number of visits a third place has received.
+,,cumulative-co-presence,Total accumulated overlap of visitors at a third place.
+,,max-simultaneous-visitors,Highest number of agents present at the same third place at once.
+,,home-node-id,Agent’s home location in the network.
+,,activity-node-id,Agent’s daily activity destination in the network.
+,,destination-node-id,Current destination node of the agent.
+,,destination-type,"Indicates whether the agent is going to home, activity, or third place."
+,,route-nodes,List of nodes forming the agent’s current route.
+,,route-index,Tracks where the agent is along the route.
+,,person-status,Indicates whether the agent is travelling or dwelling.
+,,third-place-visits,Total number of third-place visits made by an agent.
+,,completed-trips,Total number of completed trips made by an agent.
