@@ -1,0 +1,44 @@
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,Model,Parameter,Purpose
+,,Model 1: Mobility + social feedback,number-of-people,Sets the number of agents moving through the neighbourhood.
+,,Model 1,baseline-stop-probability,Starting probability that an agent considers stopping at a third place.
+,,Model 1,schedule-fixedness,Represents how time-constrained or rushed an agent is.
+,,Model 1,schedule-odds-ratio,Reduces stopping odds for agents with more fixed schedules.
+,,Model 1,stop-probability,"Final probability that an agent stops, after schedule and social feedback effects."
+,,Model 1,social-feedback?,Turns the familiarity feedback mechanism on or off.
+,,Model 1,social-encounters,Tracks accumulated co-presence / encounters experienced by an agent.
+,,Model 1,social-odds-ratio,Increases stopping odds as agents accumulate familiarity through encounters.
+,,Model 1,encounter-odds-increment,Controls how strongly encounters increase future stopping odds.
+,,Model 1,encounter-weight,Scales model encounters into broader social familiarity.
+,,Model 1,third-place-search-radius,Defines how far from their route agents are willing or able to search for a third place.
+,,Model 1,route-third-place-sample-size,Controls how many route nodes are checked for nearby third-place options.
+,,Model 1,search-radius-multiplier,Adjusts search radius by agent schedule type.
+,,Model 1,rigid-dwell-time,Time rigid agents spend at a third place once they stop.
+,,Model 1,medium-dwell-time,Time medium-flexibility agents spend at a third place once they stop.
+,,Model 1,flexible-dwell-time,Time flexible agents spend at a third place once they stop.
+,,Model 1,personal-dwell-time,Agent-specific dwell time assigned from schedule profile.
+,,Model 1,current-visitors,Number of agents currently dwelling at a third place.
+,,Model 1,visit-count,Total number of visits a third place has received.
+,,Model 1,cumulative-co-presence,Total accumulated overlap of visitors at a third place.
+,,Model 1,max-simultaneous-visitors,Highest number of agents present at the same third place at once.
+,,Model 1,home-node-id,Agent’s home location in the network.
+,,Model 1,activity-node-id,Agent’s daily activity destination in the network.
+,,Model 1,destination-node-id,Current destination node of the agent.
+,,Model 1,destination-type,"Indicates whether the agent is going to home, activity, or third place."
+,,Model 1,route-nodes,List of nodes forming the agent’s current route.
+,,Model 1,route-index,Tracks where the agent is along the route.
+,,Model 1,person-status,Indicates whether the agent is travelling or dwelling.
+,,Model 1,third-place-visits,Total number of third-place visits made by an agent.
+,,Model 1,completed-trips,Total number of completed trips made by an agent.
+,,Model 2: Place attractiveness extension,attribute-based-choice?,Switches between random third-place choice and affordability/welcomingness-based choice.
+,,Model 2,place-affordability,Stylised attribute representing how economically accessible a third place is.
+,,Model 2,place-welcomingness,Stylised attribute representing how socially comfortable or inclusive a third place feels.
+,,Model 2,price-sensitivity,Measures how strongly an agent is attracted to affordable places.
+,,Model 2,comfort-sensitivity,Measures how strongly an agent is attracted to welcoming places.
+,,Model 2,place-attractiveness,Temporary score used to rank reachable third places for each agent.
