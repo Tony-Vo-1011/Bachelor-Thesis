@@ -575,13 +575,13 @@ to dwell-at-third-place  ;; person procedure
 end
 
 to go
-;  if ticks >= 1000 [
-;    show (word "Visits/person: " visits-per-person)
-;    show (word "Average stop probability: " average-stop-probability)
-;    show (word "Average social encounters: " average-social-encounters)
-;    show (word "Total co-presence: " total-co-presence)
-;    stop
-;  ]
+  ;  if ticks >= 1000 [
+  ;    show (word "Visits/person: " visits-per-person)
+  ;    show (word "Average stop probability: " average-stop-probability)
+  ;    show (word "Average social encounters: " average-social-encounters)
+  ;    show (word "Total co-presence: " total-co-presence)
+  ;    stop
+  ;  ]
 
   ask people [
     ifelse person-status = "dwelling" [
@@ -614,6 +614,15 @@ to update-place-co-presence
 end
 
 to register-social-encounter [number-met]  ;; person procedure
+  ;; person stops at a third place
+  ;; ↓
+  ;; they overlap with other people there
+  ;; ↓
+  ;; this is counted as a social encounter
+  ;; ↓
+  ;; social encounters increase their social odds ratio
+  ;; ↓
+  ;; higher social odds ratio increases their future stop probability
 
   ;; Always count encounters, even in the control experiment.
   set social-encounters social-encounters + (number-met * encounter-weight)
