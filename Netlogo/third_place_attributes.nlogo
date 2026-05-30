@@ -92,15 +92,24 @@ to setup
 end
 
 to load-node-table
-  set node-table csv:from-file "C:/Users/15177459/Desktop/netlogo/data/sample/sample_nodes.csv"
+  ; Path for GIS Desktop
+  ; set node-table csv:from-file "C:/Users/15177459/Desktop/netlogo/data/sample/sample_nodes.csv"
+  ; Path for Mac Laptop
+  set node-table csv:from-file "/Users/tonyvo/Desktop/Thesis/netlogo/data/roads/sample_nodes.csv"
 end
 
 to load-edge-table
-  set edge-table csv:from-file "C:/Users/15177459/Desktop/netlogo/data/sample/sample_edges.csv"
+  ; Path for GIS Desktop
+  ; set edge-table csv:from-file "C:/Users/15177459/Desktop/netlogo/data/sample/sample_edges.csv"
+  ; Path for Mac Laptop
+  set edge-table csv:from-file "/Users/tonyvo/Desktop/Thesis/netlogo/data/roads/sample_edges.csv"
 end
 
 to load-place-table
-  set place-table csv:from-file "C:/Users/15177459/Desktop/netlogo/data/sample/sample_places.csv"
+  ; Path for GIS Desktop
+  ; set place-table csv:from-file "C:/Users/15177459/Desktop/netlogo/data/sample/sample_places.csv"
+  ; Path for Mac Laptop
+  set place-table csv:from-file "/Users/tonyvo/Desktop/Thesis/netlogo/data/places/sample_places.csv"
 end
 
 to setup-road-nodes
