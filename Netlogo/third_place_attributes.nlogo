@@ -92,24 +92,30 @@ to setup
 end
 
 to load-node-table
-  ; Path for GIS Desktop
-  ; set node-table csv:from-file "C:/Users/15177459/Desktop/netlogo/data/sample/sample_nodes.csv"
+  ; Path for GIS Desktop: High Transport High Third Place
+  set node-table csv:from-file "C:/Users/15177459/Desktop/netlogo/high_third_high_trans/sample_nodes.csv"
+
+
   ; Path for Mac Laptop
-  set node-table csv:from-file "/Users/tonyvo/Desktop/Thesis/netlogo/hi_third_low_trans/sample_WK0363NB_hithir_lowtr_nodes.csv"
+  ; set node-table csv:from-file "/Users/tonyvo/Desktop/Thesis/netlogo/hi_third_low_trans/sample_WK0363NB_hithir_lowtr_nodes.csv"
 end
 
 to load-edge-table
-  ; Path for GIS Desktop
-  ; set edge-table csv:from-file "C:/Users/15177459/Desktop/netlogo/data/sample/sample_edges.csv"
+  ; Path for GIS Desktop: High Transport High Third Place
+  set edge-table csv:from-file "C:/Users/15177459/Desktop/netlogo/high_third_high_trans/sample_edges.csv"
+  
   ; Path for Mac Laptop
-  set edge-table csv:from-file "/Users/tonyvo/Desktop/Thesis/netlogo/hi_third_low_trans/sample_WK0363NB_hithir_lowtr_edges.csv"
+  ; set edge-table csv:from-file "/Users/tonyvo/Desktop/Thesis/netlogo/hi_third_low_trans/sample_WK0363NB_hithir_lowtr_edges.csv"
 end
 
 to load-place-table
-  ; Path for GIS Desktop
-  ; set place-table csv:from-file "C:/Users/15177459/Desktop/netlogo/data/sample/sample_places.csv"
+  ; Path for GIS Desktop: High Transport High Third Place
+  set place-table csv:from-file "C:/Users/15177459/Desktop/netlogo/high_third_high_trans/sample_places.csv"
+
+  
+
   ; Path for Mac Laptop
-  set place-table csv:from-file "/Users/tonyvo/Desktop/Thesis/netlogo/hi_third_low_trans/hithir_lowtr_WK0363NB_places.csv"
+  ; set place-table csv:from-file "/Users/tonyvo/Desktop/Thesis/netlogo/hi_third_low_trans/hithir_lowtr_WK0363NB_places.csv"
 end
 
 to setup-road-nodes
