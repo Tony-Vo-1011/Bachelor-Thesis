@@ -93,33 +93,50 @@ end
 
 to load-node-table
   ; Path for GIS Desktop: High Transport High Third Place
-  ;set node-table csv:from-file "C:/Users/15177459/Documents/netlogo/high_third_high_trans/sample_nodes.csv"
+  ; set node-table csv:from-file "C:/Users/15177459/Desktop/netlogo/data/hi_trans_hi_third/sample_nodes_WK0363AJ.csv"
 
   ; Path for GIS Desktop: High Transport Low Third Place
-  set node-table csv:from-file "C:/Users/15177459/Documents/netlogo/low_third_hi_trans/sample_WK0363TJ_lowthir_hitr_nodes.csv"
+  set node-table csv:from-file "C:/Users/15177459/Desktop/netlogo/data/hi_trans_low_third/sample_WK0363TA_hitrans_lowthird_nodes.csv"
 
+  ; Path for GIS Desktop: Low Transport High Third Place
+  ; set node-table csv:from-file "C:/Users/15177459/Desktop/netlogo/data/low_trans_hi_third/sample_WK0363KP_lowtrans_hithird_nodes.csv"
 
+  ; Path for GIS Desktop: Low Transport High Third Place
+  ; set node-table csv:from-file "C:/Users/15177459/Desktop/netlogo/data/low_trans_low_third/sample_WK0363FK_lowtrans_lowthird_nodes.csv"
+  
   ; Path for Mac Laptop
   ; set node-table csv:from-file "C:/Users/15177459/Documents/netlog/low_third_hi_trans/sample_WK0363TJ_lowthir_hitr_nodes.csv"
 end
 
 to load-edge-table
   ; Path for GIS Desktop: High Transport High Third Place
-  ; set edge-table csv:from-file "C:/Users/15177459/Documents/netlogo/high_third_high_trans/sample_edges.csv"
+  ; set edge-table csv:from-file "C:/Users/15177459/Desktop/netlogo/data/hi_trans_hi_third/sample_edges_WK0363AJ.csv"
 
   ; Path for GIS Desktop: High Transport Low Third Place
-  set edge-table csv:from-file "C:/Users/15177459/Documents/netlogo/low_third_hi_trans/sample_WK0363TJ_lowthir_hitr_edges.csv"
+  set edge-table csv:from-file "C:/Users/15177459/Desktop/netlogo/data/hi_trans_low_third/sample_WK0363TA_hitrans_lowthird_edges.csv"
+
+  ; Path for GIS Desktop: Low Transport High Third Place
+  ; set edge-table csv:from-file "C:/Users/15177459/Desktop/netlogo/data/low_trans_hi_third/sample_WK0363KP_lowtrans_hithird_edges.csv"
   
+  ; Path for GIS Desktop: Low Transport Low Third Place
+  ; set edge-table csv:from-file "C:/Users/15177459/Desktop/netlogo/data/low_trans_low_third/sample_WK0363FK_lowtrans_lowthird_edges.csv"
+
   ; Path for Mac Laptop
   ; set edge-table csv:from-file "/Users/tonyvo/Desktop/Thesis/netlogo/hi_third_low_trans/sample_WK0363NB_hithir_lowtr_edges.csv"
 end
 
 to load-place-table
   ; Path for GIS Desktop: High Transport High Third Place
-  ; set place-table csv:from-file "C:/Users/15177459/Documents/netlogo/high_third_high_trans/sample_places.csv"
+  ; set place-table csv:from-file "C:/Users/15177459/Desktop/netlogo/data/hi_trans_hi_third/sample_places_Wk0363AJ.csv"
 
   ; Path for GIS Desktop: High Transport Low Third Place
-  set place-table csv:from-file "C:/Users/15177459/Documents/netlogo/low_third_hi_trans/lowthir_hitr_WK0363TJ_places.csv"
+  set place-table csv:from-file "C:/Users/15177459/Desktop/netlogo/data/hi_trans_low_third/hitrans_lowthird_WK0363TA_places.csv"
+
+  ; Path for GIS Desktop: Low Transport High Third Place
+  ; set place-table csv:from-file "C:/Users/15177459/Desktop/netlogo/data/low_trans_hi_third/lowtrans_hithird_WK0363KP_places.csv"
+
+  ; Path for GIS Desktop: Low Transport Low Third Place
+  ; set place-table csv:from-file "C:/Users/15177459/Desktop/netlogo/data/low_trans_low_third/lowtrans_lowthird_WK0363FK_places.csv"
 
   ; Path for Mac Laptop
   ; set place-table csv:from-file "/Users/tonyvo/Desktop/Thesis/netlogo/hi_third_low_trans/hithir_lowtr_WK0363NB_places.csv"
