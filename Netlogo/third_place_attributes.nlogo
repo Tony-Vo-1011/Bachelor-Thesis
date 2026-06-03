@@ -120,7 +120,7 @@ to load-edge-table
   
   ; Path for GIS Desktop: Low Transport Low Third Place
   set edge-table csv:from-file "C:/Users/15177459/Desktop/netlogo/data/low_trans_low_third/sample_WK0363FK_lowtrans_lowthird_edges.csv"
-
+ 
   ; Path for Mac Laptop
   ; set edge-table csv:from-file "/Users/tonyvo/Desktop/Thesis/netlogo/hi_third_low_trans/sample_WK0363NB_hithir_lowtr_edges.csv"
 end
