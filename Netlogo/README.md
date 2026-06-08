@@ -9,6 +9,7 @@ This folder contains the NetLogo models and Python notebooks referenced in the t
 - `sweeps.ipynb` Parameter sweep notebook used to explore and select model parameter values.
 - `model_1.ipynb` Runs the experiments reported for Model 1 (`personal_mobility.nlogo`).
 - `model_2.ipynb` Runs the experiments reported for Model 2 (`third_place_attributes.nlogo`).
+- `four_case_connectivity_time_pressure.ipynb` Runs connectivity vs time pressure aross for neighbourhood typologies using Model 2 (`third_place_attributes.nlogo`).
 
 ## Relation to Thesis 
 These files form the simulation component of the thesis. The NetLogo models implement the behavioural mechanisms discussed in the research, while the Python notebooks are used to run experiments, collect outputs, and generate the results presented in the simulation chapters.
